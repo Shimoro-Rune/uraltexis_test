@@ -1,0 +1,31 @@
+.locationForm {
+    width: 450px;
+    height: auto;
+    margin: auto;
+    padding: 30px 20px 60px 20px;
+}
+
+.locationForm input {
+    width: 100%;
+    line-height: 30px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    margin-top: 0.5em;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid #dad2c7;
+    border-radius: 4px;
+    transition: 180ms box-shadow ease-in-out;
+}
+
+.locationForm input[readonly] {
+    border-style: dotted;
+    cursor: not-allowed;
+    color: #686868;
+}
+
+.locationForm input:focus {
+    border-color: #c9c9c9;
+    box-shadow: 0 0 0 2px #dad2c7;
+    outline: 2px solid transparent;
+}
